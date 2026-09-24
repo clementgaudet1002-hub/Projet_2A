@@ -7227,7 +7227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P810X120-33N"
+		(property "Footprint" "TPA3116D2QDADRQ1:SOP65P810X120-33N"
 			(at 177.8 157.15 0)
 			(effects
 				(font
@@ -8185,7 +8185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P810X120-33N"
+		(property "Footprint" "TPA3116D2QDADRQ1:SOP65P810X120-33N"
 			(at 177.8 244.78 0)
 			(effects
 				(font
