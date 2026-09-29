@@ -3886,6 +3886,143 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 120.65 81.28) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fab5a26-ede0-4b89-9abb-b86ae72c813f")
+	)
+	(wire
+		(pts
+			(xy 280.67 101.6) (xy 292.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e93a27-c51c-4a99-a6e7-9495f65dde07")
+	)
+	(wire
+		(pts
+			(xy 280.67 104.14) (xy 292.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b843fe-c0b3-423e-9045-41307136a6de")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 135.89 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1cfb8f-a2f5-4d5a-947c-6e4624e4a39f")
+	)
+	(wire
+		(pts
+			(xy 120.65 71.12) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d286c957-d7c8-41b4-943e-1728a09cb230")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe18801f-5e6f-4e54-bf67-9b9253c0800c")
+	)
+	(hierarchical_label "USART_TX"
+		(shape input)
+		(at 292.1 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "196ec23d-7fd6-4de4-b10f-6ecec943f188")
+	)
+	(hierarchical_label "SAI1_FS_A{slash}LRCK"
+		(shape input)
+		(at 120.65 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d902e10-9e98-4717-8a9d-2895ee07fca3")
+	)
+	(hierarchical_label "SAI1_SCK_A{slash}BCK"
+		(shape input)
+		(at 120.65 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45b802a5-2078-4edf-97dc-967b53e26dff")
+	)
+	(hierarchical_label "SAI1_MCLK_A{slash}SCKI"
+		(shape input)
+		(at 120.65 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5faab6b6-d20d-4b69-a501-e08308060ba3")
+	)
+	(hierarchical_label "USART_RX"
+		(shape input)
+		(at 292.1 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d22fae2-c5c3-4072-af8d-5003e404870f")
+	)
+	(hierarchical_label "SAI1_SD_A{slash}DOUT"
+		(shape input)
+		(at 120.65 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db1a28eb-3b1c-450b-a6b8-b7c7be4a3ad1")
+	)
+	(hierarchical_label "JACK_DET"
+		(shape input)
+		(at 135.89 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8160b6a-ba3d-445c-8665-60dad858244f")
+	)
 	(symbol
 		(lib_id "STM32F746BGT6:STM32F746BGT6")
 		(at 135.89 71.12 0)

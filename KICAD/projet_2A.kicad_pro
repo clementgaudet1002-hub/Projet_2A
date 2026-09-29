@@ -675,6 +675,14 @@
     [
       "50038c2d-091f-42c2-bed5-f092f45331c2",
       "STM"
+    ],
+    [
+      "ab1d53a8-b9ec-4c1d-8559-f4bf45f4c794",
+      "Bluetooth"
+    ],
+    [
+      "ee925f8d-5a28-4b50-ba65-5c1b411b0886",
+      "ADC_PCM1808"
     ]
   ],
   "text_variables": {}
