@@ -4124,7 +4124,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32F746BGT6:QFP50P3000X3000X160-208N"
+		(property "Footprint" "footprints:STM32F746BGT6"
 			(at 204.47 158.42 0)
 			(hide yes)
 			(show_name no)

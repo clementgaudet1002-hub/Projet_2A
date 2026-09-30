@@ -2714,7 +2714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Bluetooth:FSC-BT1026x"
+		(property "Footprint" "footprints:FSC-BT1026x"
 			(at 148.59 48.26 0)
 			(hide yes)
 			(show_name no)

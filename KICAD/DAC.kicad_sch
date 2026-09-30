@@ -3445,7 +3445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "footprints:PCM5102AQPWRQ1"
 			(at 101.6 47.32 0)
 			(hide yes)
 			(show_name no)
@@ -6881,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "footprints:PCM5102AQPWRQ1"
 			(at 100.33 -6.02 0)
 			(hide yes)
 			(show_name no)
