@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "TPA3116D2QDADRQ1") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/TPA3116D2QDADRQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "Bluetooth_FSC_BT1026x") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/Bluetooth_FSC_BT1026x.kicad_sym") (options "") (descr ""))
+	(lib (name "PCM1808PW") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/PCM1808PW.kicad_sym") (options "") (descr ""))
+	(lib (name "PCM5102AQPWRQ1") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/PCM5102AQPWRQ1.kicad_sym") (options "") (descr ""))
+	(lib (name "STM32F746BGT6") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/STM32F746BGT6.kicad_sym") (options "") (descr ""))
+)
