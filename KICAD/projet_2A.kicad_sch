@@ -2031,6 +2031,52 @@
 		)
 	)
 	(sheet
+		(at 39.37 189.23)
+		(size 31.75 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1442699e-8497-4ac1-982e-b7a2e5b25d29")
+		(property "Sheetname" "alimentation"
+			(at 39.37 188.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alimentation.kicad_sch"
+			(at 39.37 222.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "projet_2A"
+				(path "/05601714-c31e-4eda-914b-0c4b098c219a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 19.685)
 		(size 125.095 122.555)
 		(exclude_from_sim no)

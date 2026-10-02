@@ -715,7 +715,7 @@
         "uuid": "05601714-c31e-4eda-914b-0c4b098c219a"
       }
     ],
-    "used_designators": "R26-27,IC7-8,C82-93,#PWR70-82",
+    "used_designators": "J2,R26-31,IC7-8,C82-100,D1-2,#PWR70-98,PS1-2,TP1-3,U2-3",
     "variants": []
   },
   "sheets": [
@@ -742,6 +742,10 @@
     [
       "003455f6-3bec-40d4-9703-109b043d5b34",
       "DAC_PCM5102A"
+    ],
+    [
+      "1442699e-8497-4ac1-982e-b7a2e5b25d29",
+      "alimentation"
     ]
   ],
   "text_variables": {},

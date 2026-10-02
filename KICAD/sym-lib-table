@@ -5,4 +5,6 @@
 	(lib (name "PCM1808PW") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/PCM1808PW.kicad_sym") (options "") (descr ""))
 	(lib (name "PCM5102AQPWRQ1") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/PCM5102AQPWRQ1.kicad_sym") (options "") (descr ""))
 	(lib (name "STM32F746BGT6") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/STM32F746BGT6.kicad_sym") (options "") (descr ""))
+	(lib (name "BU33SD5WG-TR") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/BU33SD5WG-TR.kicad_sym") (options "") (descr ""))
+	(lib (name "MagIC_Wurth_MagIC-FDSM") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/MagIC_Wurth_MagIC-FDSM.kicad_sym") (options "") (descr ""))
 )
