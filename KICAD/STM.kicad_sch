@@ -3993,7 +3993,7 @@
 		)
 		(uuid "196ec23d-7fd6-4de4-b10f-6ecec943f188")
 	)
-	(hierarchical_label "SAI1_FS_A{slash}LRCK"
+	(hierarchical_label "LRCK"
 		(shape input)
 		(at 48.26 78.74 180)
 		(effects
@@ -4004,7 +4004,7 @@
 		)
 		(uuid "3d902e10-9e98-4717-8a9d-2895ee07fca3")
 	)
-	(hierarchical_label "SAI1_SCK_A{slash}BCK"
+	(hierarchical_label "BCK"
 		(shape input)
 		(at 48.26 81.28 180)
 		(effects
@@ -4015,7 +4015,7 @@
 		)
 		(uuid "45b802a5-2078-4edf-97dc-967b53e26dff")
 	)
-	(hierarchical_label "SAI1_MCLK_A{slash}SCKI"
+	(hierarchical_label "SCKI"
 		(shape input)
 		(at 48.26 73.66 180)
 		(effects
@@ -4037,7 +4037,7 @@
 		)
 		(uuid "6d22fae2-c5c3-4072-af8d-5003e404870f")
 	)
-	(hierarchical_label "DAC_DIN"
+	(hierarchical_label "DIN"
 		(shape input)
 		(at 48.26 76.2 180)
 		(effects
@@ -4048,7 +4048,7 @@
 		)
 		(uuid "b72f74cf-5657-4f4f-82d5-c6f12fc5d146")
 	)
-	(hierarchical_label "SAI1_SD_A{slash}DOUT"
+	(hierarchical_label "DOUT"
 		(shape input)
 		(at 48.26 83.82 180)
 		(effects
