@@ -1935,7 +1935,7 @@
 		)
 		(uuid "097590d2-db99-4310-9202-2ebe241378f7")
 	)
-	(hierarchical_label "USART_TX"
+	(hierarchical_label "BT_TX"
 		(shape input)
 		(at 99.06 67.31 180)
 		(effects
@@ -1957,7 +1957,7 @@
 		)
 		(uuid "add5087b-987b-4426-8338-795dda452e3f")
 	)
-	(hierarchical_label "USART_RX"
+	(hierarchical_label "BT_RX"
 		(shape input)
 		(at 99.06 64.77 180)
 		(effects

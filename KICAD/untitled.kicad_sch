@@ -3977,7 +3977,7 @@
 		)
 		(uuid "bc77e5aa-1293-482d-ac84-a210f81fb4aa")
 	)
-	(hierarchical_label "PLIMIT"
+	(hierarchical_label "AMP_PLIMIT"
 		(shape input)
 		(at 81.28 127 180)
 		(effects

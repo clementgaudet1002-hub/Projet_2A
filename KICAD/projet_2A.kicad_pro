@@ -715,7 +715,7 @@
         "uuid": "05601714-c31e-4eda-914b-0c4b098c219a"
       }
     ],
-    "used_designators": "J2,R26-39,IC7-8,C82-103,D1-5,#PWR18-22,#PWR33,#PWR67,#PWR70-110,PS1-2,TP1-4,U2-6,Q1-2",
+    "used_designators": "J2-3,R20,R26-39,IC7-8,C68,C82-103,D1-5,#PWR18-27,#PWR33,#PWR47,#PWR55,#PWR67-68,#PWR70-110,PS1-2,TP1-4,U2-6,Q1-2,SW1-2",
     "variants": []
   },
   "sheets": [
@@ -746,6 +746,10 @@
     [
       "1442699e-8497-4ac1-982e-b7a2e5b25d29",
       "alimentation"
+    ],
+    [
+      "3af5301f-4ae5-4524-834b-0a55688409ce",
+      "Interface_HM"
     ]
   ],
   "text_variables": {},

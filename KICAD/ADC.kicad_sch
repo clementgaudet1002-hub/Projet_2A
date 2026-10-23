@@ -3907,7 +3907,7 @@
 		)
 		(uuid "2e5dfcb9-631f-452b-baed-009c7ea84758")
 	)
-	(hierarchical_label "DOUT"
+	(hierarchical_label "I2S_DOUT"
 		(shape input)
 		(at 161.29 100.33 270)
 		(effects
@@ -3918,7 +3918,7 @@
 		)
 		(uuid "90b0705f-c1cb-4651-80c4-2f930c8d6b47")
 	)
-	(hierarchical_label "LRCK"
+	(hierarchical_label "I2S_LRCK"
 		(shape input)
 		(at 125.73 100.33 270)
 		(effects
@@ -3940,7 +3940,7 @@
 		)
 		(uuid "c7e9fe58-9c17-4d03-baeb-b06c7d0724b9")
 	)
-	(hierarchical_label "BCK"
+	(hierarchical_label "I2S_BCK"
 		(shape input)
 		(at 153.67 100.33 270)
 		(effects
@@ -3951,7 +3951,7 @@
 		)
 		(uuid "da1aa86e-3d73-4616-a385-e9aba90ec1c9")
 	)
-	(hierarchical_label "SCKI"
+	(hierarchical_label "I2S_SCKI"
 		(shape input)
 		(at 118.11 100.33 270)
 		(effects
