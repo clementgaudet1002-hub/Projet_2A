@@ -2607,7 +2607,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MagIC_Wurth_MagIC-FDSM:173010342"
+		(symbol "MagIC_Wurth_MagIC-FDSM:173010542"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2623,7 +2623,7 @@
 					)
 				)
 			)
-			(property "Value" "173010342"
+			(property "Value" "173010542"
 				(at 0 -20.5 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2644,7 +2644,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/173010342.pdf"
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/173010542.pdf"
 				(at 68.072 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2666,7 +2666,7 @@
 					)
 				)
 			)
-			(property "Vin (V)" "7 - 42"
+			(property "Vin (V)" "8 - 42"
 				(at 71.374 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2677,7 +2677,7 @@
 					)
 				)
 			)
-			(property "Vout (V)" "3.3"
+			(property "Vout (V)" "5"
 				(at 71.374 -4.318 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2721,7 +2721,7 @@
 					)
 				)
 			)
-			(symbol "173010342_1_0"
+			(symbol "173010542_1_0"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -7.62)
@@ -2734,7 +2734,7 @@
 					)
 				)
 			)
-			(symbol "173010342_1_1"
+			(symbol "173010542_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -5023,7 +5023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X125-5N"
+		(property "Footprint" "footprints:BU33SD5WG-TR"
 			(at 106.68 309.55 0)
 			(hide yes)
 			(show_name no)
@@ -5477,6 +5477,122 @@
 			(project "projet_2A"
 				(path "/05601714-c31e-4eda-914b-0c4b098c219a/1442699e-8497-4ac1-982e-b7a2e5b25d29"
 					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MagIC_Wurth_MagIC-FDSM:173010542")
+		(at 198.12 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1df48150-428e-4642-bc68-d03dcafe6944")
+		(property "Reference" "U6"
+			(at 198.12 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "173010542"
+			(at 198.12 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:U_Wurth_MagIC-FDSM_173010x42"
+			(at 267.97 213.106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/173010542.pdf"
+			(at 266.192 215.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "requires no external components for operation reducing design effort and complexity to a minimum."
+			(at 198.12 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vin (V)" "8 - 42"
+			(at 269.494 219.202 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vout (V)" "5"
+			(at 269.494 221.488 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Iout (A)" "1"
+			(at 269.494 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "116d8994-7679-4054-8c2e-8b8966d7db47")
+		)
+		(pin "2"
+			(uuid "fe77329b-58de-4496-9764-8d85648aede9")
+		)
+		(pin "1"
+			(uuid "a1e39067-ac46-417d-bb6f-51511feaac27")
+		)
+		(instances
+			(project "projet_2A"
+				(path "/05601714-c31e-4eda-914b-0c4b098c219a/1442699e-8497-4ac1-982e-b7a2e5b25d29"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -9300,122 +9416,6 @@
 			(project "projet_2A"
 				(path "/05601714-c31e-4eda-914b-0c4b098c219a/1442699e-8497-4ac1-982e-b7a2e5b25d29"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MagIC_Wurth_MagIC-FDSM:173010342")
-		(at 198.12 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efe26a85-6767-4b35-a8bc-841565df32f7")
-		(property "Reference" "U2"
-			(at 198.12 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "173010342"
-			(at 198.12 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MagIC_THT_Wurth:U_Wurth_MagIC-FDSM_173010x42"
-			(at 267.97 213.106 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/173010342.pdf"
-			(at 266.192 215.392 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "requires no external components for operation reducing design effort and complexity to a minimum."
-			(at 198.12 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vin (V)" "7 - 42"
-			(at 269.494 219.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vout (V)" "3.3"
-			(at 269.494 221.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Iout (A)" "1"
-			(at 269.494 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b741d64-ca79-4f23-b73c-1576cdbb768b")
-		)
-		(pin "3"
-			(uuid "3ebf754a-7cb6-4432-9db9-850f8fd5698b")
-		)
-		(pin "2"
-			(uuid "246d89b1-1a48-461a-8bb4-8aa4eb531413")
-		)
-		(instances
-			(project "projet_2A"
-				(path "/05601714-c31e-4eda-914b-0c4b098c219a/1442699e-8497-4ac1-982e-b7a2e5b25d29"
-					(reference "U2")
 					(unit 1)
 				)
 			)
