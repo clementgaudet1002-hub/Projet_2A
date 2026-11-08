@@ -500,16 +500,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 88.9) (xy 288.29 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "055893f9-50b3-48fa-94f9-52d1a5ef2cf6")
-	)
-	(wire
-		(pts
 			(xy 184.15 198.12) (xy 194.31 198.12)
 		)
 		(stroke
@@ -547,16 +537,6 @@
 			(type default)
 		)
 		(uuid "1b1fb23b-5f33-42b7-a51a-6a49cfa80977")
-	)
-	(wire
-		(pts
-			(xy 278.13 71.12) (xy 288.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f187086-b1c7-4de2-a9f0-43a363b372c1")
 	)
 	(wire
 		(pts
@@ -990,16 +970,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 83.82) (xy 288.29 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a7db37-93f3-4696-9efc-ae2faaa43168")
-	)
-	(wire
-		(pts
 			(xy 129.54 134.62) (xy 139.7 134.62)
 		)
 		(stroke
@@ -1067,16 +1037,6 @@
 			(type default)
 		)
 		(uuid "e0a76095-ac39-4a34-af48-099fdc898f53")
-	)
-	(wire
-		(pts
-			(xy 278.13 76.2) (xy 288.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e465ddb4-d562-4f0c-8c8c-591ca5556273")
 	)
 	(wire
 		(pts
@@ -1228,16 +1188,6 @@
 		)
 		(uuid "2a6ec5c5-6684-4242-b84f-d8a8b8058898")
 	)
-	(label "OUT_P_LEFT"
-		(at 288.29 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a8e5a3f-62d0-48d7-be5f-7cc00010e3c6")
-	)
 	(label "TFT_SCK"
 		(at 194.31 91.44 180)
 		(effects
@@ -1387,16 +1337,6 @@
 			(justify right bottom)
 		)
 		(uuid "523b1425-60a4-438e-806d-d02a48e6e79e")
-	)
-	(label "OUT_N_LEFT"
-		(at 288.29 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54c9c2fb-e75b-4485-9974-a34fc5267d3d")
 	)
 	(label "TFT_RST"
 		(at 194.31 88.9 180)
@@ -1617,26 +1557,6 @@
 			(justify right bottom)
 		)
 		(uuid "b54f8815-b229-49eb-b402-44551e68e1bb")
-	)
-	(label "OUT_N_RIGHT"
-		(at 288.29 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b56fc300-da61-4d5d-ad87-0bdfc319b6d2")
-	)
-	(label "OUT_P_RIGHT"
-		(at 288.29 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b703e7d2-ef38-45b6-ba7f-220df671209e")
 	)
 	(label "TFT_SCK"
 		(at 184.15 200.66 0)
@@ -2638,46 +2558,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "OUT_N_LEFT" input
-			(at 278.13 88.9 0)
-			(uuid "36026c18-c83e-4eb5-8b29-a3ae87b41f8b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT_N_RIGHT" input
-			(at 278.13 76.2 0)
-			(uuid "1c5d48d6-0af9-4a7b-b0fe-46e6b6775652")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT_P_LEFT" input
-			(at 278.13 83.82 0)
-			(uuid "d964f2da-9378-4c0a-9e58-1e97ad45d54c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OUT_P_RIGHT" input
-			(at 278.13 71.12 0)
-			(uuid "8f531c6e-fb84-4df5-ab46-edfd0478056e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "AMP_MUTE" input
