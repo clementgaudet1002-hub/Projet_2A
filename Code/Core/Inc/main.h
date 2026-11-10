@@ -49,8 +49,6 @@ extern "C" {
 
 /* USER CODE END EM */
 
-void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
-
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
 
@@ -61,6 +59,10 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define JACK_DET_Pin GPIO_PIN_0
 #define JACK_DET_GPIO_Port GPIOC
+#define AMP_SUB_SD_Pin GPIO_PIN_1
+#define AMP_SUB_SD_GPIO_Port GPIOC
+#define AMP_SUB_MUTE_Pin GPIO_PIN_2
+#define AMP_SUB_MUTE_GPIO_Port GPIOC
 #define ENC_A_Pin GPIO_PIN_0
 #define ENC_A_GPIO_Port GPIOA
 #define ENC_B_Pin GPIO_PIN_1
@@ -71,22 +73,16 @@ void Error_Handler(void);
 #define BTN_USER_GPIO_Port GPIOA
 #define AMP_PLIMIT_Pin GPIO_PIN_4
 #define AMP_PLIMIT_GPIO_Port GPIOA
-#define TFT_SCK_Pin GPIO_PIN_5
-#define TFT_SCK_GPIO_Port GPIOA
-#define TFT_BL_Pin GPIO_PIN_6
-#define TFT_BL_GPIO_Port GPIOA
-#define TFT_MOSI_Pin GPIO_PIN_7
-#define TFT_MOSI_GPIO_Port GPIOA
-#define TFT_DC_Pin GPIO_PIN_4
-#define TFT_DC_GPIO_Port GPIOC
-#define TFT_RST_Pin GPIO_PIN_5
-#define TFT_RST_GPIO_Port GPIOC
-#define TFT_CS_Pin GPIO_PIN_0
-#define TFT_CS_GPIO_Port GPIOB
-#define AMP_SD_Pin GPIO_PIN_1
+#define AMP_SUB_PLIMIT_Pin GPIO_PIN_5
+#define AMP_SUB_PLIMIT_GPIO_Port GPIOA
+#define AMP_SD_Pin GPIO_PIN_0
 #define AMP_SD_GPIO_Port GPIOB
-#define AMP_MUTE_Pin GPIO_PIN_2
+#define AMP_MUTE_Pin GPIO_PIN_1
 #define AMP_MUTE_GPIO_Port GPIOB
+#define AMP_SUB_SDB2_Pin GPIO_PIN_2
+#define AMP_SUB_SDB2_GPIO_Port GPIOB
+#define AMP_SUB_MUTEB10_Pin GPIO_PIN_10
+#define AMP_SUB_MUTEB10_GPIO_Port GPIOB
 #define I2S_WS_Pin GPIO_PIN_12
 #define I2S_WS_GPIO_Port GPIOB
 #define I2S_CK_Pin GPIO_PIN_13
@@ -115,8 +111,18 @@ void Error_Handler(void);
 #define I2S_CKC10_GPIO_Port GPIOC
 #define I2S_DOUT_Pin GPIO_PIN_12
 #define I2S_DOUT_GPIO_Port GPIOC
-#define SWO_Pin GPIO_PIN_3
-#define SWO_GPIO_Port GPIOB
+#define TFT_SCK_Pin GPIO_PIN_3
+#define TFT_SCK_GPIO_Port GPIOB
+#define TFT_CS_Pin GPIO_PIN_4
+#define TFT_CS_GPIO_Port GPIOB
+#define TFT_MOSI_Pin GPIO_PIN_5
+#define TFT_MOSI_GPIO_Port GPIOB
+#define TFT_DC_Pin GPIO_PIN_6
+#define TFT_DC_GPIO_Port GPIOB
+#define TFT_RST_Pin GPIO_PIN_7
+#define TFT_RST_GPIO_Port GPIOB
+#define TFT_BL_Pin GPIO_PIN_8
+#define TFT_BL_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
