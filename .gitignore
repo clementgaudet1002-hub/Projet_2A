@@ -19,4 +19,15 @@ fp-info-cache
 *.ses
 
 
+# Fichiers de compilation STM32CubeIDE
+Code/Debug/
+Code/Release/
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.cyclo
+*.su
+
 .history/
