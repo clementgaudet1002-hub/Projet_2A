@@ -363,6 +363,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
+  /*Configure GPIO pin : I2S_DIN2_Pin */
+  GPIO_InitStruct.Pin = I2S_DIN2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Alternate = GPIO_AF5_SPI1;
+  HAL_GPIO_Init(I2S_DIN2_GPIO_Port, &GPIO_InitStruct);
+
   /*Configure GPIO pins : AMP_SD_Pin AMP_MUTE_Pin AMP_SUB_SDB2_Pin AMP_SUB_MUTEB10_Pin
                            TFT_CS_Pin TFT_DC_Pin TFT_RST_Pin */
   GPIO_InitStruct.Pin = AMP_SD_Pin|AMP_MUTE_Pin|AMP_SUB_SDB2_Pin|AMP_SUB_MUTEB10_Pin
@@ -372,32 +380,32 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : I2S_WS_Pin I2S_CK_Pin I2S_DIN_Pin */
-  GPIO_InitStruct.Pin = I2S_WS_Pin|I2S_CK_Pin|I2S_DIN_Pin;
+  /*Configure GPIO pins : I2S_LRCK_Pin I2S_BCK_Pin I2S_DIN1_Pin */
+  GPIO_InitStruct.Pin = I2S_LRCK_Pin|I2S_BCK_Pin|I2S_DIN1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.Alternate = GPIO_AF5_SPI2;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : I2S_MCK_Pin */
-  GPIO_InitStruct.Pin = I2S_MCK_Pin;
+  /*Configure GPIO pin : I2S_SCKI_Pin */
+  GPIO_InitStruct.Pin = I2S_SCKI_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.Alternate = GPIO_AF5_SPI2;
-  HAL_GPIO_Init(I2S_MCK_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(I2S_SCKI_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : I2S_WSA15_Pin */
-  GPIO_InitStruct.Pin = I2S_WSA15_Pin;
+  /*Configure GPIO pin : I2S_WS_Pin */
+  GPIO_InitStruct.Pin = I2S_WS_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.Alternate = GPIO_AF6_SPI3;
-  HAL_GPIO_Init(I2S_WSA15_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(I2S_WS_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : I2S_CKC10_Pin I2S_DOUT_Pin */
-  GPIO_InitStruct.Pin = I2S_CKC10_Pin|I2S_DOUT_Pin;
+  /*Configure GPIO pins : I2S_CK_Pin I2S_DOUT_Pin */
+  GPIO_InitStruct.Pin = I2S_CK_Pin|I2S_DOUT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;

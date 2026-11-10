@@ -2546,10 +2546,6 @@
 		(uuid "109a31c3-ca88-469b-a8bb-5f6827e24154")
 	)
 	(no_connect
-		(at 210.82 123.19)
-		(uuid "1657f622-d0b7-42b9-b3da-66c97136adc1")
-	)
-	(no_connect
 		(at 170.18 128.27)
 		(uuid "1b692bb5-12a1-4c97-a58e-4886b86c6089")
 	)
@@ -2570,12 +2566,20 @@
 		(uuid "3134683f-6ab8-408a-b043-b54ffcc08eea")
 	)
 	(no_connect
-		(at 210.82 128.27)
-		(uuid "4b36539c-1e5d-4335-bc7e-59acefaa9fc6")
+		(at 170.18 90.17)
+		(uuid "52afd3da-e1d6-4ef4-a916-3028a7655e8b")
 	)
 	(no_connect
 		(at 170.18 107.95)
 		(uuid "66357a91-633b-437a-9b48-12d1301391c3")
+	)
+	(no_connect
+		(at 92.71 109.22)
+		(uuid "81065964-eccd-463f-b74e-900da137a9b5")
+	)
+	(no_connect
+		(at 170.18 102.87)
+		(uuid "992ea9a5-1903-47fc-af42-d9532827d869")
 	)
 	(no_connect
 		(at 170.18 123.19)
@@ -2586,16 +2590,8 @@
 		(uuid "a809511f-7766-4973-9b1c-f47696b0c33f")
 	)
 	(no_connect
-		(at 210.82 130.81)
-		(uuid "c34f9430-2852-49fb-adf4-b7e7f0e94619")
-	)
-	(no_connect
-		(at 210.82 135.89)
-		(uuid "c4c3325d-4186-436e-9eea-14a1bb0214f9")
-	)
-	(no_connect
-		(at 210.82 125.73)
-		(uuid "c7788814-529c-47a2-946d-640c7097d4ec")
+		(at 210.82 82.55)
+		(uuid "d59ef442-400e-4027-8f7c-e07f130294ed")
 	)
 	(no_connect
 		(at 170.18 85.09)
@@ -2610,8 +2606,8 @@
 		(uuid "e9ff05e5-4a80-4a55-8863-d37cf056371a")
 	)
 	(no_connect
-		(at 210.82 120.65)
-		(uuid "ec788d3e-fc37-4dec-a179-ddac865e49a7")
+		(at 170.18 100.33)
+		(uuid "f29ca77c-8864-4b93-8f38-fcb0a1c62e04")
 	)
 	(no_connect
 		(at 170.18 80.01)
@@ -2686,16 +2682,6 @@
 			(type default)
 		)
 		(uuid "1e10cf38-ebed-4af9-981d-cf66ff84ad67")
-	)
-	(wire
-		(pts
-			(xy 92.71 109.22) (xy 100.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e5499c-c7d7-4ddd-be62-9ad9c6adae8e")
 	)
 	(wire
 		(pts
@@ -3039,16 +3025,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 118.11) (xy 215.9 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e703ec25-842e-4f68-aa48-4f41efaed9c5")
-	)
-	(wire
-		(pts
 			(xy 204.47 40.64) (xy 212.09 40.64)
 		)
 		(stroke
@@ -3127,16 +3103,6 @@
 		)
 		(uuid "2e3572b4-504c-49c2-bc79-9b423764848d")
 	)
-	(label "SWO"
-		(at 215.9 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "45a689a1-655b-418e-a2d6-106301cf5418")
-	)
 	(label "SWCLK"
 		(at 218.44 102.87 180)
 		(effects
@@ -3157,16 +3123,6 @@
 		)
 		(uuid "a43f9204-423f-4827-9eea-8954ed10ce27")
 	)
-	(label "SWO"
-		(at 100.33 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce705424-de50-4439-96e9-29d4505f7e29")
-	)
 	(hierarchical_label "BTN_USER"
 		(shape input)
 		(at 210.82 74.93 0)
@@ -3178,7 +3134,18 @@
 		)
 		(uuid "08fb3be7-9417-4b8a-9bea-549fbe82b093")
 	)
-	(hierarchical_label "TFT_CS"
+	(hierarchical_label "TFT_MOSI"
+		(shape input)
+		(at 210.82 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c1520bf-374d-451b-adb9-2571f879f6fd")
+	)
+	(hierarchical_label "AMP_SD"
 		(shape input)
 		(at 210.82 110.49 0)
 		(effects
@@ -3189,7 +3156,7 @@
 		)
 		(uuid "103798fe-e55e-4eb0-9123-804583b80bc9")
 	)
-	(hierarchical_label "AMP_MUTE"
+	(hierarchical_label "AMP_SUB_SD"
 		(shape input)
 		(at 210.82 115.57 0)
 		(effects
@@ -3199,17 +3166,6 @@
 			(justify left)
 		)
 		(uuid "241d86bb-4e27-4e44-80d3-22a21cc26949")
-	)
-	(hierarchical_label "JACK_DET"
-		(shape input)
-		(at 170.18 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2458e609-b014-474c-8c79-c98569e88ddc")
 	)
 	(hierarchical_label "USB_SDA"
 		(shape input)
@@ -3266,7 +3222,7 @@
 		)
 		(uuid "48b4e053-ae4e-4311-bb37-9ee185fcda78")
 	)
-	(hierarchical_label "AMP_SD"
+	(hierarchical_label "AMP_MUTE"
 		(shape input)
 		(at 210.82 113.03 0)
 		(effects
@@ -3312,14 +3268,14 @@
 	)
 	(hierarchical_label "TFT_BL"
 		(shape input)
-		(at 210.82 82.55 0)
+		(at 210.82 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "67b577ad-afdf-4ef4-9fb1-fe89472d1f0c")
+		(uuid "722b6bda-82c0-4cc6-9a88-f98fc1873d21")
 	)
 	(hierarchical_label "USB_SCL"
 		(shape input)
@@ -3331,6 +3287,17 @@
 			(justify left)
 		)
 		(uuid "748fcc80-5b54-488e-afa6-1df3d1d87927")
+	)
+	(hierarchical_label "I2S_BCK"
+		(shape input)
+		(at 170.18 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "773ae666-24bd-4a54-b0e2-5035ac257d99")
 	)
 	(hierarchical_label "I2S_DOUT"
 		(shape input)
@@ -3354,18 +3321,7 @@
 		)
 		(uuid "8debbe6d-2405-4ee4-b843-9f1e67b8ca2b")
 	)
-	(hierarchical_label "TFT_RST"
-		(shape input)
-		(at 170.18 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "909e844d-391a-44bc-b8f0-b46c42bd3444")
-	)
-	(hierarchical_label "TFT_SCK"
+	(hierarchical_label "AMP_SUB_PLIMIT"
 		(shape input)
 		(at 210.82 80.01 0)
 		(effects
@@ -3376,18 +3332,18 @@
 		)
 		(uuid "96bb10d6-e993-4772-ab14-2685102d265d")
 	)
-	(hierarchical_label "TFT_DC"
+	(hierarchical_label "TFT_SCK"
 		(shape input)
-		(at 170.18 100.33 180)
+		(at 210.82 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "a261a32a-b009-410a-961c-a0d1087b95f8")
+		(uuid "9ce365a4-220f-47db-a50f-59a81442ab23")
 	)
-	(hierarchical_label "TFT_MOSI"
+	(hierarchical_label "I2S_DIN2"
 		(shape input)
 		(at 210.82 85.09 0)
 		(effects
@@ -3398,7 +3354,7 @@
 		)
 		(uuid "a6aa6071-5c01-43b0-b5ac-21657faa96a6")
 	)
-	(hierarchical_label "I2S_DIN"
+	(hierarchical_label "I2S_DIN1"
 		(shape input)
 		(at 210.82 146.05 0)
 		(effects
@@ -3431,16 +3387,49 @@
 		)
 		(uuid "bd840c04-db7a-4f11-8362-6b2a91017cb2")
 	)
-	(hierarchical_label "I2S_BCK"
+	(hierarchical_label "AMP_SUB_MUTE"
 		(shape input)
-		(at 170.18 115.57 180)
+		(at 210.82 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c16655c0-b58d-4a36-9428-e9529dbfad47")
+		(uuid "c0b21160-5d61-4c6e-9967-b35b2e0812fe")
+	)
+	(hierarchical_label "TFT_CS"
+		(shape input)
+		(at 210.82 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5845a7a-05f0-4f8f-a097-d3cc2e6da2a6")
+	)
+	(hierarchical_label "TFT_RST"
+		(shape input)
+		(at 210.82 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d154a8ce-22aa-448f-8fa1-977cd3d9e41f")
+	)
+	(hierarchical_label "TFT_DC"
+		(shape input)
+		(at 210.82 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4e22b50-b34b-40d4-a0ed-1b6cf53dca15")
 	)
 	(hierarchical_label "ENC_SW"
 		(shape input)
@@ -4874,7 +4863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 162.56 137.16 0)
 			(hide yes)
 			(show_name no)
