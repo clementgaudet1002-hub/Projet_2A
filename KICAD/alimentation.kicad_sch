@@ -4335,6 +4335,12 @@
 		(uuid "a59c30fb-5209-429c-9d6c-db274f460dd5")
 	)
 	(junction
+		(at 129.54 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a607306d-4044-4c42-a0f6-6aefd6d955fd")
+	)
+	(junction
 		(at 120.65 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4956,7 +4962,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 217.17) (xy 138.43 217.17)
+			(xy 120.65 217.17) (xy 129.54 217.17)
 		)
 		(stroke
 			(width 0)
@@ -5113,6 +5119,16 @@
 			(type default)
 		)
 		(uuid "9024bfa0-d63b-49d1-83bb-291dd84a2b0c")
+	)
+	(wire
+		(pts
+			(xy 129.54 217.17) (xy 138.43 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91138d91-cd67-485d-bf08-0518aed11b4d")
 	)
 	(wire
 		(pts
@@ -11173,6 +11189,84 @@
 			(project "projet_2A"
 				(path "/05601714-c31e-4eda-914b-0c4b098c219a/1442699e-8497-4ac1-982e-b7a2e5b25d29"
 					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 129.54 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f74795df-07c4-4101-a36d-6a40c529d367")
+		(property "Reference" "#FLG05"
+			(at 129.54 215.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 129.54 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 129.54 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ef8ab7e-aa12-4f6a-a1c8-59f4bd888ce0")
+		)
+		(instances
+			(project "projet_2A"
+				(path "/05601714-c31e-4eda-914b-0c4b098c219a/1442699e-8497-4ac1-982e-b7a2e5b25d29"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

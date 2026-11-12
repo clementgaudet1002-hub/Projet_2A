@@ -12,4 +12,5 @@
 	(lib (name "BAT54JFILM") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/BAT54JFILM.kicad_sym") (options "") (descr ""))
 	(lib (name "ESDA25P35-1U1M") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/ESDA25P35-1U1M.kicad_sym") (options "") (descr ""))
 	(lib (name "ESDA25W") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/ESDA25W.kicad_sym") (options "") (descr ""))
+	(lib (name "LM321SN3T1G") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/LM321SN3T1G.kicad_sym") (options "") (descr ""))
 )
