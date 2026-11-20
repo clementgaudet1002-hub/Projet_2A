@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet_2A_Enceinte" company="" webLink="http://" view-date="2026-07-01" view-index="0" gantt-divider-location="311" resource-divider-location="300" version="3.3.3323" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Nom" width="169" order="0"/>
+        <field id="tpd4" name="Date de début" width="63" order="1"/>
+        <field id="tpd5" name="Date de fin" width="63" order="2"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="a2199e99637c458bb20e07c1a1db9e9c" name="Mise en place des idées" meeting="false" start="2026-08-03" duration="22" complete="0" expand="false">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="66" type="2" difference="0" hardness="Strong"/>
+            <depend id="73" type="2" difference="0" hardness="Strong"/>
+            <task id="2" uid="6cdb7fd4bb3e4d96b36632d8de2cf6aa" name="Recherche de projets similaires" meeting="false" start="2026-08-03" duration="22" complete="0" expand="true"/>
+            <task id="24" uid="d2e96ff983e94586a5c9d6fe2562b0f9" name="Recherche de composants (Amplificateur audio, Microcontrôleur, ...)" meeting="false" start="2026-08-04" duration="21" complete="0" expand="true"/>
+        </task>
+        <task id="3" uid="f2432c82f4244a48a56752bd494589dd" name="Schématique &amp; Routage PCB (KiCad)" meeting="false" start="2026-09-01" duration="101" complete="0" expand="false">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <task id="4" uid="9b5ecb44e93843fea3cc5db8ddcd9645" name="Saisie du schéma électrique (KiCad)" meeting="false" start="2026-09-01" duration="51" complete="0" expand="true">
+                <task id="29" uid="bc4ef13086ee46a2b7041a1101c5b9d1" name="Importer les composants actifs" meeting="false" start="2026-09-01" duration="6" complete="0" expand="true"/>
+                <task id="30" uid="6863294e40e44e80bd0928a582852d21" name="Implémenter les composants passifs selon la datasheet ou des répertoires github" meeting="false" start="2026-09-08" duration="41" complete="0" expand="true"/>
+                <task id="32" uid="32b2935eaed7446daf403599ede0abe2" name="Attribution des broches du microcontrôleur" meeting="false" start="2026-11-03" duration="6" complete="0" expand="true"/>
+                <task id="33" uid="7ffa8698de374b1b9fce53db98ef229f" name="Organiser le schéma avec des feuilles hierarchiques" meeting="false" start="2026-11-03" duration="6" complete="0" expand="true"/>
+                <task id="26" uid="e5821f6c231942bb919ab5b39051babd" name="Test ERC (Contrôle des rêgles électriques)" meeting="false" start="2026-11-10" duration="1" complete="0" expand="true"/>
+                <task id="39" uid="1f437bd142dd43009e89a3bb2bec0839" name="Corriger les erreurs" meeting="false" start="2026-11-10" duration="1" complete="0" expand="true"/>
+                <task id="34" uid="d47207b8a6c8450eb24457610d2ba607" name="Assigner les empreintes des composants" meeting="false" start="2026-11-10" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="10" uid="e726988af44343a9bba169b219cbdf2d" name="Routage du PCB" meeting="false" start="2026-11-10" duration="21" complete="0" expand="true">
+                <task id="36" uid="8178bbc10b424cd38e7aa160f920acb0" name="Dimensionner le PCB 4 couches" meeting="false" start="2026-11-10" duration="2" complete="0" expand="true">
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="37" uid="eeb686a2a4524f5d8269d0798cd4481e" name="Placer les composants actifs" meeting="false" start="2026-11-12" duration="1" complete="0" expand="true">
+                    <depend id="43" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="43" uid="fb10a8883841474fb298d7628a3d460a" name="Placer les composants passifs relatifs aux composants actifs" meeting="false" start="2026-11-13" duration="1" complete="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="44" uid="d37412937aa445d2a157fe35bec9e449" name="Créer les zones d'alimentation" meeting="false" start="2026-11-16" duration="1" complete="0" expand="true">
+                    <depend id="45" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="45" uid="57c7138a3be94a36a8a66a8174f6aed8" name="Relier les fils" meeting="false" start="2026-11-17" duration="1" complete="0" expand="true">
+                    <depend id="46" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="46" uid="7fb5ff0190794a7cb3ff891174882927" name="Placer les vias GND" meeting="false" start="2026-11-18" duration="1" complete="0" expand="true">
+                    <depend id="47" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="47" uid="986de48612f5440fa92654b479e5f165" name="Faire la sérigraphie" meeting="false" start="2026-11-19" duration="1" complete="0" expand="true">
+                    <depend id="6" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="6" uid="ddef8671e2ff45f3a59b80b390824400" name="Vérification DRC &amp; Génération des fichiers Gerber" meeting="false" start="2026-11-20" duration="3" complete="0" expand="true">
+                    <depend id="74" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="74" uid="8959c05bde5d4ef2bebe004c00c5c95a" name="Vérifier et corriger avec l'encadrant" meeting="false" start="2026-11-25" duration="10" complete="0" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="7" uid="0cccf1ca2aad43fdb26646d76391092e" name="Envoyer le PCB en fabrication" meeting="true" start="2026-12-09" duration="0" complete="0" expand="true"/>
+            <task id="22" uid="275f719a25fb467b8aedb3e14a4a19ce" name="Commander les composants" meeting="false" start="2026-12-09" duration="2" complete="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" uid="38f7335675fa43dc8d3ba46312628ba6" name="Attendre les composants" meeting="false" start="2026-12-11" duration="28" complete="0" expand="true"/>
+        </task>
+        <task id="8" uid="90e63678523f4c1eb96a5abaf4652c87" name="Programmation de l'écran TFT" meeting="false" start="2026-09-02" duration="45" complete="0" expand="false">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+            <task id="9" uid="f0c77d9614d14ef7b4fe4a0024c3747c" name="Prendre en main la carte Discovery" meeting="false" start="2026-09-02" duration="10" complete="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="a5473edea5a44d22bbad1ebe213e7262" name="Concevoir un PCB customisé intégrant l'encodeur, le boutton et l'écran" meeting="false" start="2026-09-16" duration="1" complete="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="e51616d3baa54203b64ebe7a3e3a068f" name="Programmer l'affichage" meeting="false" start="2026-09-17" duration="21" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="27d6eb0c8a7445808cb3f665d78ce698" name="Intégrer les effets de l'encodeur et du boutton" meeting="false" start="2026-10-16" duration="13" complete="0" expand="true"/>
+        </task>
+        <task id="15" uid="bf673041e6f641e3a52dbfaa27990b50" name="Soudure et Tests du PCB" meeting="false" start="2027-01-20" duration="5" complete="0" expand="false">
+            <depend id="58" type="2" difference="0" hardness="Strong"/>
+            <task id="16" uid="1694025fce764b689726804a8e8719b4" name="Souder au four les composants CMS" meeting="false" start="2027-01-20" duration="1" complete="0" expand="true"/>
+            <task id="17" uid="70de1a580729488f8571a3fe8fe0eec9" name="Souder à la main les composants THT" meeting="false" start="2027-01-20" duration="1" complete="0" expand="true"/>
+            <task id="18" uid="d864e39897be4a2192a9dea78168362b" name="Tester les court-circuit par conductimétrie" meeting="false" start="2027-01-20" duration="1" complete="0" expand="true"/>
+            <task id="19" uid="a1f319bf33be45c4b7a0acf964543462" name="Tester l'alimentation de la carte" meeting="false" start="2027-01-20" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="23" uid="85ea14ac6ce542579c5ffd3d69ece592" name="Traitement du signal DSP" meeting="false" start="2026-11-04" duration="65" complete="0" expand="false">
+            <task id="49" uid="226d96c6dd1b4dcda1972e68ff6938cd" name="Configurer le microcontrôleur sur CubeIDE" meeting="false" start="2026-11-04" duration="8" complete="0" expand="true"/>
+            <task id="50" uid="f84331f768534681b1b6d10666bb535f" name="Se former en C sur le traitement du signal" meeting="false" start="2026-11-04" duration="10" complete="0" expand="true"/>
+            <task id="51" uid="ddf9b8399f17444b8038e5f569bbc7b1" name="Programmer &amp; Tester" meeting="false" start="2026-11-04" duration="65" complete="0" expand="true">
+                <task id="53" uid="41327a66f24a4f27b139ff6926a650db" name="Fitltre audio" meeting="false" start="2026-11-04" duration="65" complete="0" expand="true"/>
+                <task id="54" uid="f643453d5ac64b08bc8cb4a4fb58ed8b" name="Equializer" meeting="false" start="2026-11-04" duration="65" complete="0" expand="true"/>
+                <task id="55" uid="df45a2e052504536832f31053c38adea" name="Volume" meeting="false" start="2026-11-04" duration="65" complete="0" expand="true"/>
+                <task id="56" uid="536d0bb3348f4558af380bd500ad9a2f" name="Balance" meeting="false" start="2026-11-04" duration="65" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="58" uid="dee3e5d8f5e64f2f866fa0d2f2a74414" name="Conception physique" meeting="false" start="2027-01-27" duration="40" complete="0" expand="false">
+            <task id="59" uid="1e6894ddccbf4375b68a4810deb7a38d" name="Modéliser le module" meeting="false" start="2027-01-27" duration="10" complete="0" expand="true">
+                <depend id="60" type="2" difference="0" hardness="Strong"/>
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" uid="f67a2f5c83f34d88a7a132e0a585a394" name="Modéliser les cages d'enceintes" meeting="false" start="2027-02-10" duration="10" complete="0" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" uid="583c3f8af1f04323b848e6e0e270f972" name="Imprimer en 3D le module" meeting="false" start="2027-02-10" duration="1" complete="0" expand="true"/>
+            <task id="62" uid="02048667e0994e719adfe4906bcb6b6b" name="Découper à la découpeuse laser les planches des cages d'enceintes" meeting="false" start="2027-02-24" duration="5" complete="0" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="63" uid="e306944833554e71a39d5afe7e175e5f" name="Assembler les cages d'enceintes" meeting="false" start="2027-03-03" duration="15" complete="0" expand="true"/>
+        </task>
+        <task id="66" uid="41060893332a46429dd5cd168f273b9e" name="Compte rendu" meeting="false" start="2026-09-02" duration="1" complete="0" expand="false">
+            <task id="67" uid="84393906fce3432ca3b37150216abdd1" name="Préparer la soutenance du 15 décembre" color="#8cb6ce" meeting="false" start="2026-09-02" duration="1" complete="0" expand="true"/>
+            <task id="69" uid="e4415277c02c4b56b793ed75e67fede7" name="Préparer la soutenance finale" color="#8cb6ce" meeting="false" start="2026-09-02" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="73" uid="61d55847e53245ecb4daa99385864e18" name="Mettre à jour le github" meeting="false" start="2026-09-02" duration="155" complete="0" expand="true"/>
+        <task id="71" uid="d26775baf38e4d9ea1624cb030d52003" name="Soutenance du 15 décembre" meeting="false" start="2026-11-24" duration="16" complete="0" expand="true"/>
+        <task id="72" uid="e3fe490ec7ed49c78e0fbf70469482f4" name="Soutenance finale" meeting="false" start="2027-03-16" duration="16" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Gaudet Clément" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Melli Léo" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

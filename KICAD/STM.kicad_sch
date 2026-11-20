@@ -2517,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 139.7) (xy 189.23 139.7)
+			(xy 175.26 139.7) (xy 189.23 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2695,16 +2695,16 @@
 		)
 		(uuid "f9065887-667f-4efa-8504-fb553710bc4a")
 	)
-	(hierarchical_label "I2S_DIN2"
+	(hierarchical_label "TFT_DC"
 		(shape input)
-		(at 189.23 162.56 180)
+		(at 227.33 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "04da57e9-7308-4fc6-bf62-3c0543472e7a")
+		(uuid "0179fb8d-62c3-43c5-94bb-d7280d10c9aa")
 	)
 	(hierarchical_label "ENC_SW"
 		(shape input)
@@ -2719,25 +2719,14 @@
 	)
 	(hierarchical_label "USB_SCL"
 		(shape input)
-		(at 227.33 124.46 0)
+		(at 227.33 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1b24808e-16e5-4828-9cd1-7633f0b4dbe4")
-	)
-	(hierarchical_label "I2S_DIN1"
-		(shape input)
-		(at 227.33 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34a5eb78-04d1-463b-9fa7-cc607eca9d58")
+		(uuid "2e36b03f-7256-4008-9982-e65cd09485d9")
 	)
 	(hierarchical_label "ENC_B"
 		(shape input)
@@ -2752,14 +2741,14 @@
 	)
 	(hierarchical_label "TFT_RST"
 		(shape input)
-		(at 189.23 134.62 180)
+		(at 189.23 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "531e81c4-fd43-48af-98e3-b3ddb9bfed92")
+		(uuid "42bc2b4b-3976-47c5-917c-af8f6113bcde")
 	)
 	(hierarchical_label "AMP_MUTE"
 		(shape input)
@@ -2782,6 +2771,17 @@
 			(justify left)
 		)
 		(uuid "5919f122-04dc-46e9-b58c-f4c71956df2c")
+	)
+	(hierarchical_label "I2S_DIN2"
+		(shape input)
+		(at 189.23 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69ba5b60-c980-4e9a-8c16-e5e4d2a0faf4")
 	)
 	(hierarchical_label "AMP_SUB_PLIMIT"
 		(shape input)
@@ -2816,17 +2816,6 @@
 		)
 		(uuid "713ef409-8769-4f28-b6bc-0678329bdb72")
 	)
-	(hierarchical_label "I2S_DOUT"
-		(shape input)
-		(at 189.23 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7ab1df40-07b7-4f7c-a31a-65d4b6143e90")
-	)
 	(hierarchical_label "ENC_A"
 		(shape input)
 		(at 151.13 116.84 180)
@@ -2860,17 +2849,6 @@
 		)
 		(uuid "806077ec-54e4-4a46-bf4f-89abe9f80fa1")
 	)
-	(hierarchical_label "I2S_BCK"
-		(shape input)
-		(at 227.33 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "864a0a81-16d1-40e3-bcd6-c823b04bb32d")
-	)
 	(hierarchical_label "I2S_SCKI"
 		(shape input)
 		(at 248.92 104.14 0)
@@ -2882,7 +2860,40 @@
 		)
 		(uuid "91e88c76-57f8-4fe9-a486-fe39f2d87379")
 	)
-	(hierarchical_label "TFT_BL"
+	(hierarchical_label "USB_SDA"
+		(shape input)
+		(at 227.33 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99341990-fc8f-4cf9-b972-0fe94a94c566")
+	)
+	(hierarchical_label "I2S_BCK"
+		(shape input)
+		(at 189.23 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4eceb7b-3b51-4bfa-8fea-6e85a5370572")
+	)
+	(hierarchical_label "I2S_DIN1"
+		(shape input)
+		(at 189.23 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b29a0578-0809-4623-8665-4e2c44716c72")
+	)
+	(hierarchical_label "I2S_DOUT"
 		(shape input)
 		(at 189.23 142.24 180)
 		(effects
@@ -2891,7 +2902,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c26cbf52-b324-42fb-bed5-adaf96f4c00b")
+		(uuid "bedb44d8-11f7-4bef-bdc3-164889f91774")
 	)
 	(hierarchical_label "TFT_MOSI"
 		(shape input)
@@ -2915,27 +2926,16 @@
 		)
 		(uuid "e30954eb-a0b0-428d-930f-a3dc11773dad")
 	)
-	(hierarchical_label "TFT_DC"
+	(hierarchical_label "TFT_BL"
 		(shape input)
-		(at 189.23 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eda9a983-5d9e-48bf-afb4-79e57ebdb77b")
-	)
-	(hierarchical_label "USB_SDA"
-		(shape input)
-		(at 227.33 132.08 0)
+		(at 227.33 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f2d8cce3-e375-4ab8-9aba-94c46b0695ae")
+		(uuid "f5e82c5d-f1c7-4052-9085-540af5039417")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3523,7 +3523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.92 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3604,7 +3604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.92 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -3684,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.48 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32WROVEREN16R8"
+		(property "Footprint" "footprints:ESP32WROVEREN16R8"
 			(at 223.52 199.06 0)
 			(hide yes)
 			(show_name no)
@@ -4280,7 +4280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 142.24 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4490,7 +4490,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 139.7 0)
+		(at 175.26 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4501,7 +4501,7 @@
 		(fields_autoplaced yes)
 		(uuid "a018f22b-930f-45a4-82fa-be07c4ee6a59")
 		(property "Reference" "#PWR0144"
-			(at 177.8 146.05 0)
+			(at 175.26 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4512,7 +4512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 144.78 0)
+			(at 175.26 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4523,7 +4523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 139.7 0)
+			(at 175.26 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4534,7 +4534,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 139.7 0)
+			(at 175.26 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4545,7 +4545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 139.7 0)
+			(at 175.26 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,7 +4840,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5001,7 +5001,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5170,7 +5170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.13 107.95 0)
 			(hide yes)
 			(show_name no)
