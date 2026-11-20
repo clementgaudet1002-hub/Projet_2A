@@ -546,7 +546,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "projet_2A.step",
       "svg": "",
       "vrml": ""
     },
@@ -698,6 +698,84 @@
           "label": "Vin (V)",
           "name": "Vin (V)",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR (A)",
+          "name": "IR (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT (A)",
+          "name": "ISAT (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC (mohm)",
+          "name": "RDC (mohm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Series",
+          "name": "Series",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Created Date",
+          "name": "Created Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol. L",
+          "name": "Tol. L",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (uH)",
+          "name": "L (uH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -756,7 +834,7 @@
         "uuid": "05601714-c31e-4eda-914b-0c4b098c219a"
       }
     ],
-    "used_designators": "#FLG1-10,#PWR18-31,#PWR33-34,#PWR37-38,#PWR40-44,#PWR47,#PWR55-64,#PWR67-135,C30-35,C37-48,C50-53,C55-56,C68-79,C81-114,D1-11,H1-4,IC2-4,IC7-8,J1-9,L5-12,PS1-2,Q1-4,R10-16,R20-22,R24-44,SW1-3,TP1-8,U2-7",
+    "used_designators": "#FLG1-10,#PWR1-31,#PWR33-34,#PWR37-38,#PWR40-147,C1-35,C37-48,C50-114,D1-11,H1-4,IC1-8,J1-10,L5-12,PS1-2,Q1-4,R1-16,R18-53,SW1-4,TP1-8,U2-7",
     "variants": []
   },
   "sheets": [
@@ -765,32 +843,36 @@
       "projet_2A"
     ],
     [
-      "d2c03650-eb6b-438f-8291-6b9088b7ba31",
-      "TPA3116D2"
-    ],
-    [
-      "50038c2d-091f-42c2-bed5-f092f45331c2",
-      "STM"
-    ],
-    [
-      "ab1d53a8-b9ec-4c1d-8559-f4bf45f4c794",
-      "Bluetooth"
-    ],
-    [
-      "ee925f8d-5a28-4b50-ba65-5c1b411b0886",
-      "ADC_PCM1808"
-    ],
-    [
-      "003455f6-3bec-40d4-9703-109b043d5b34",
+      "191b2fda-5abf-4ce9-a61d-28487a039de4",
       "DAC_PCM5102A"
     ],
     [
-      "1442699e-8497-4ac1-982e-b7a2e5b25d29",
-      "alimentation"
+      "9b1f6c1d-39dc-4bec-abb1-2eb431d94f7d",
+      "ADC_PCM1808"
+    ],
+    [
+      "8b2e618b-d321-4a95-a171-eae1068c026e",
+      "ESP32-WROVER-E"
+    ],
+    [
+      "5ad97a69-cabd-465f-a7e7-f29bf99a8d34",
+      "TPA3116D2"
+    ],
+    [
+      "aa238f38-1c56-49d4-8a02-87dda95c1528",
+      "Ampli_Stereo"
+    ],
+    [
+      "57c09150-7712-4031-8345-f8741b43aabc",
+      "Ampli_SBU"
     ],
     [
       "3af5301f-4ae5-4524-834b-0a55688409ce",
       "Interface_HM"
+    ],
+    [
+      "a149c662-6aad-4e62-9d5c-81f6107b58e7",
+      "alimentation"
     ]
   ],
   "text_variables": {},
