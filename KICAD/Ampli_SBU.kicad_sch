@@ -2446,6 +2446,12 @@
 		(uuid "9f738ac1-a714-4030-bde6-1e032c30823e")
 	)
 	(junction
+		(at 163.83 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2c5d3a7-a6bf-44bd-9ffd-84b81ed15127")
+	)
+	(junction
 		(at 144.78 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7566,6 +7572,83 @@
 			(project "projet_2A"
 				(path "/05601714-c31e-4eda-914b-0c4b098c219a/5ad97a69-cabd-465f-a7e7-f29bf99a8d34/57c09150-7712-4031-8345-f8741b43aabc"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 163.83 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eaa4ab8b-0b34-4920-a898-1ce668238911")
+		(property "Reference" "#PWR0148"
+			(at 163.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Vin"
+			(at 167.386 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 163.83 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aed580e1-fbf6-4ea9-9e3f-9ff865a9edcf")
+		)
+		(instances
+			(project "projet_2A"
+				(path "/05601714-c31e-4eda-914b-0c4b098c219a/5ad97a69-cabd-465f-a7e7-f29bf99a8d34/57c09150-7712-4031-8345-f8741b43aabc"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
