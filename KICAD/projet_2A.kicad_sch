@@ -661,6 +661,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 161.29) (xy 184.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b199b3-414d-4cb8-b0fe-295ea24dcb70")
+	)
+	(wire
+		(pts
 			(xy 180.34 91.44) (xy 190.5 91.44)
 		)
 		(stroke
@@ -1348,6 +1358,16 @@
 			(justify right bottom)
 		)
 		(uuid "34eea3dd-8446-4d49-ad76-3fd7cacb5d99")
+	)
+	(label "BTN_USER"
+		(at 172.72 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35f00097-e531-475e-a5e9-df7960cc3938")
 	)
 	(label "ENC_B"
 		(at 222.25 86.36 180)
@@ -3230,6 +3250,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "BTN_USER" input
+			(at 184.15 161.29 180)
+			(uuid "c2f19748-4dc8-4c52-a672-77276b585f36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
