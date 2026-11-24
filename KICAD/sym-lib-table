@@ -16,4 +16,6 @@
 	(lib (name "Inductor_Wurth_WE-LHMD") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/Inductor_Wurth_WE-LHMD.kicad_sym") (options "") (descr ""))
 	(lib (name "ESP32-MINI-1-H4") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/ESP32-MINI-1-H4.kicad_sym") (options "") (descr ""))
 	(lib (name "ESP32-WROVER-E-N16R8") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/ESP32-WROVER-E-N16R8.kicad_sym") (options "") (descr ""))
+	(lib (name "7447706100") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/7447706100.kicad_sym") (options "") (descr ""))
+	(lib (name "7447707100") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/7447707100.kicad_sym") (options "") (descr ""))
 )
