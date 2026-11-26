@@ -2603,15 +2603,6 @@
 			)
 		)
 	)
-	(group ""
-		(uuid "28550fd8-a4f8-4724-aad7-d93bdd01e987")
-		(members "060b5c8a-f8b1-47b9-be83-076cbddac907" "1a6ceddd-f72c-4683-b239-30077bc83b90"
-			"4cbefec6-5fd7-4def-ac54-d672c5d4b7ed" "64190380-d75b-4033-a5fe-1a1efdd087b8"
-			"790f6066-a2dc-4609-a48c-71f547f170e2" "987a6c0e-4d0e-4341-bea7-03a3f1d53ff7"
-			"b5b245a9-b634-4dc6-8dac-e95971b2d682" "c967c8e2-ba1e-48d4-b93d-2eb2ae67902c"
-			"d9825bb5-2ef6-4043-b2a1-2203f84a8181"
-		)
-	)
 	(sheet
 		(at 260.35 133.35)
 		(size 34.29 19.05)
