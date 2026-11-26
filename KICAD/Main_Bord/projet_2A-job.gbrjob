@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.7"
     },
-    "CreationDate": "2026-11-24T15:46:42+01:00"
+    "CreationDate": "2026-11-26T12:57:51+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 100.3,
-      "Y": 131.075
+      "Y": 90.075
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -59,6 +59,31 @@
     {
       "Path": "projet_2A-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "projet_2A-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "projet_2A-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "projet_2A-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "projet_2A-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "projet_2A-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
   ],
